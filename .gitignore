@@ -1,0 +1,83 @@
+# .gitignore file
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+tmp/
+
+# Configuration files
+.env*
+.babelrc
+
+# IDE files
+.idea/
+*.iml
+*.swp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Hardware
+*.swp
+.DS_Store
+transcript
+tcl_stacktrace.txt
+c5_pin_model_dump.txt
+*.mti
+*.mpf
+*.wlf
+*.qdb
+*.qpg
+*.qtl
+*.qws
+# *.qsf
+# *.qpf
+# *.sof
+# *.bak
+work/
+db/
+incremental_db/
+simulation/
+output_files/
+.metadata/
+RemoteSystemsTempFiles
+*.o
+*.d
+*.elf
+*.objdump
+*.map
+*.xml
+*.a
+*.force_relink
+obj/
+synthesis/
+.qsys_edit/
+
+#Unnecessary BSP files
+summary.html
+
+#Test Directory
+touchscreen_nios_2/
