@@ -2,6 +2,8 @@
 
 This project allows players to play Battleship against an AI in single player mode or against other players in multiplayer mode. Users can play the game through a UI on a touch screen display connected to the DE1-SoC. When playing against other players, the user must be connected to the internet through Wifi so that communication can be established with the server that is hosted on the cloud. When playing against the game AI, the user can simply start a game locally on the DE1 itself without an internet connection. A web application is also served by the server, and this allows players to view multiplayer games that are in progress.
 
+A video demo of the project can be found on [YouTube](https://youtu.be/wNQSp-0DwI0).
+
 # System Description
 
 The DE1-SoC is connected to the touch screen and wifi controller. The touch screen has a UI to start/stop a game, place battleships, and fire at their opponent. When playing against another player, relevant player actions are sent to a node.js cloud server hosted on an AWS EC2 instance. The server allows players to create and/or join a game room to implement the multi-player functionality. When playing in the single-player mode, the user plays against a game AI implemented in software that is run on the DE1. The diagram below shows how components communicate with each other.
