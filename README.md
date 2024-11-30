@@ -4,6 +4,12 @@ This project allows players to play Battleship against an AI in single player mo
 
 A video demo of the project can be found on [YouTube](https://youtu.be/wNQSp-0DwI0).
 
+# Contributions
+
+- **Mark Mekhail**: was responsible for the [cloud component](#cloud-component).
+- **Ritam Singal**: Ritam was responsible for the [user component](#user-component).
+- **Ryan Clayton**: Ryan was responsible for the [hardware component](#hardware-component).
+
 # System Description
 
 The DE1-SoC is connected to the touch screen and wifi controller. The touch screen has a UI to start/stop a game, place battleships, and fire at their opponent. When playing against another player, relevant player actions are sent to a node.js cloud server hosted on an AWS EC2 instance. The server allows players to create and/or join a game room to implement the multi-player functionality. When playing in the single-player mode, the user plays against a game AI implemented in software that is run on the DE1. The diagram below shows how components communicate with each other.
@@ -67,9 +73,3 @@ All core features are supported by the touchscreen UI and backend logic used to 
 ### Game AI
 
 ### Speaker
-
-# Authorship
-
-- Mark Mekhail
-- Ritam Singal
-- Ryan Clayton
